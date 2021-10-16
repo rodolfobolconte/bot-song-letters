@@ -9,8 +9,6 @@ from telegram.ext import Updater
 
 import requests
 
-from pprint import pprint
-
 from conf.settings import BASE_API_URL, TELEGRAM_TOKEN, KEY_API_VAGALUME
 
 #update é uma instância da classe telegram.Update, contém informações do usuário que disparou a mensagem
